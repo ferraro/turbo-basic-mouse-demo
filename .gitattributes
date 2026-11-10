@@ -1,0 +1,8 @@
+*.BAS text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.BAT text eol=crlf
+*.SYS text eol=crlf
+*.EXE binary
+*.png binary
