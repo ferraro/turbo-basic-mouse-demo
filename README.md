@@ -6,6 +6,14 @@ Ein Linksklick zeigt eine Begrüßung und erhöht den Klickzähler. Das Programm
 
 ![Das laufende deutsche Programm nach einem Mausklick](screenshots/hallo-welt.png)
 
+## Vom Quelltext zum Mausklick
+
+![Turbo Basic kompiliert und startet die Demo; anschließend wird die Maus bewegt und geklickt](medien/vorfuehrung.gif)
+
+[Video als MP4 herunterladen](https://github.com/ferraro/turbo-basic-mouse-demo/raw/refs/heads/main/medien/vorfuehrung.mp4)
+
+Die Aufnahme zeigt die echte VM: EXE-Ausgabe auswählen, kompilieren, starten, den Mauszeiger bewegen und mehrmals klicken. Das GIF und das MP4 stammen aus derselben Bildschirmaufnahme. Das MP4 verwendet H.264 und eignet sich als Datei für einen späteren Upload auf X; es wurde nicht auf X veröffentlicht.
+
 ## Wie bekommt BASIC eine Maus?
 
 Turbo Basic hat keine eigenen Mausbefehle. Es kann aber mit `REG` Prozessorregister vorbereiten und mit `CALL INTERRUPT` einen geladenen DOS-Maustreiber aufrufen:
